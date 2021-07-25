@@ -1,4 +1,12 @@
 img {
     width:  200px;
-    height: 200px;
+    height: 200px; 
+}
+
+* {
+    background-color: pink;
+}
+
+button{
+   background-color: #DA057E; 
 }
