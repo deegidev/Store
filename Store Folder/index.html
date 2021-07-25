@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
+    <!---HEAD METADATA -->
     <head>
         <title>freebritney.shop</title>
         <meta name="description" content="fashion that fits your world.">
         <link rel= "stylesheet" href="styles.css" />
-    </head><!---Head End-->
+    </head>
+    <!---HEAD METADATA END -->
+
     <body>
+        <!---NAV BAR MENU HEADER-->
         <header class="main_header">
             <nav class="main_nav">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="store.html">STORE</a></li>
                     <li><a href="about.html">ABOUT</a></li>
-                </ul><!---List of Pages End-->
-            </nav><!---Nav End-->
+                </ul>
+            </nav>
             <h1 class="band_name large">Free Britney</h1>
-        </header><!---Header End-->
+        </header>
+        <!---NAV BAR MENU HEADER END-->
 
+        <!---DVDs-->
         <section class="container content_section"> <!---DVD Section-->
             <h2 class ="section_header"> DVDs </h2>
                 <div class="shop_items"> <!---Shop Items Div-->
@@ -53,7 +59,10 @@
                             </div> <!---Shop Item Details Div End-->   
                     </div><!---(4)Shop One Item Div End-->
                 </div><!---Shop Items Div End-->
-            
+            </section> <!---DVD Section-->
+            <!---DVDs END-->
+
+            <!---T-SHIRTS-->
                 <section class="container content_section"> <!---T-Shirts Section-->
                     <h2 class ="section_header"> T-Shirts </h2>
                     <div class="shop_items"> <!---Shop Items Div--> 
@@ -90,8 +99,9 @@
                                 </div> <!---Shop Item Details Div End-->   
                         </div><!---(4)Shop One Item Div End-->
                     </div><!---Shop Items Div End-->
-        </section> <!---DVD Section End-->
+           <!---T-SHIRTS END-->
 
+        <!---MERCH--> 
         <section class="container content_section"> <!---Merch Section--> 
             <h2 class ="section_header"> Merch </h2> 
             <div class="shop_items"> <!---Shop Items Div-->
@@ -112,7 +122,9 @@
                         </div> <!---Shop Item Details Div End-->   
                 </div><!---(2)Shop One Item Div End-->
         </section><!---Merch Section End--> 
-        
+        <!---MERCH END--> 
+
+        <!---CART--> 
         <section class="container content_section"><!---Cart Content Section-->
             <h2 class="section_hearder">CART</h2> 
             <div class="cart_row"><!---Item Price Quanity Div --> 
@@ -122,9 +134,9 @@
             </div><!---Item Price Quanity Div End--> 
         
         
-        <div class="cart-items"><!---Cart ITEMS Div --> 
-            <div class="cart_row"><!---Cart Items Row Div --> 
-                <div class="cart-item cart_column"><!---Cart ITEM Column Div--> 
+            <div class="cart-items"><!---(1st)Cart ITEMS Div --> 
+                <div class="cart_row"><!---Cart Items Row Div --> 
+                    <div class="cart-item cart_column"><!---Cart ITEM Column Div--> 
                     <img class="cart_item-image" src="Images/tshirt_album1_babyonemoretime.jpg" width="100" height="100">
                     <span class="cart_item_title">T-Shirt</span>
                 </div><!---Cart ITEM Column Div End--> 
@@ -132,24 +144,53 @@
                 <div class="cart-quantity cart_column"> <!---Cart QUANTITY Column Div --> 
                     <input class="cart_quantity_input" type="number" value="1">
                     <button class="btn btn_danger" type="button">REMOVE</button>
-                </div><!---Cart Quanity Column Div End--> 
+                </div><!---Cart QUANTITY Column Div End--> 
             </div><!---Cart Items Row Div End--> 
-
-            <div><!---(2nd)Cart ITEMS Row Div --> 
-                <div><!---(2nd)Cart Items Row Div --> 
-                    <img><!---(2nd)Cart QUANTITY Column  --> 
-                    <span>DVD</span>
+            <div class="cart-row"><!---(2nd)Cart ITEMS Row Div --> 
+                <div class="cart-item cart-column"><!---(2nd)Cart Items Row Div --> 
+                    <img class="cart_item-image" src="Images/dvd_album4_inthezone.jpg" width="100" height="100"><!---(2nd)Cart QUANTITY Column  --> 
+                    <span>DVD | In The Zone </span>
                 </div><!---(2nd)Cart ITEM Column Div--> 
-                <span>$30</span>
-                <div>
-                    <input>
-                    <button>REMOVE</button>
-                </div><!---(2nd)Cart QUANTITY Column Div --> 
-            </div><!---(2nd)Cart Items Row Div End--> 
-        </div><!---(2nd)Cart ITEMS Row Div End--> 
+                <span class="cart_price cart_column">$30</span>
+                <div class="cart_quantity cart_column"><!---(2nd)Cart QUANTITY Column Div --> 
+                    <input class="cart_quantity_input" type="number" value="2">
+                    <button class="btn btn_danger" type="button">REMOVE</button>
+                </div><!---(2nd)Cart QUANTITY Column Div End --> 
+                </div><!---(2nd)Cart ITEMS Row Div End--> 
+            </div><!---(1st)Cart ITEMS Row Div End--> 
 
+            <div class="cart_total"><!---Cart Total -->
+                <strong class="cart_total_title">Total</strong>
+                <span class="cart_total_price">$85</span>
+            </div><!---Cart Total End--> 
+            <button class="btn btn_primary btn_purchase" type="button">PURCHASE</button>
+        </section><!---Cart Content Section End-->
+    <!---CART END--> 
 
-    </section><!---Cart Content Section End-->
+    <!---FOOTER LINKS--> 
+        <footer class="main_footer">
+            <div class="container main_footer_container">
+                <h3 class="band_name">Free Britney</h3>
+                <ul class="nav footer_nav">
+                    <li><!--Youtube Link -->
+                        <a href="https://www.youtube.com/results?search_query=freebritney" target="_blank">
+                            <img src="Images/logo_youtube_pink_transparent.jpg">
+                        </a>
+                    </li> <!--Youtube Link End-->
+                    <li><!--Spotify Link -->
+                        <a href="https://open.spotify.com/artist/26dSoYclwsYLMAKD3tpOr4" targer="_blank">
+                            <img src="Images/logo_spotify_pink_transparent.png">
+                        </a>
+                    </li> <!--Spotify Link End-->
+                    <li><!--Instagram  End-->
+                        <a href="https://www.instagram.com/britneyspears/?hl=en" target="_blank">
+                            <img src="Images/logo_instagram_pink_transparent.png">
+                        </a>
+                    </li> <!--Instagram Link End-->
 
+                </ul><!--Nav Footer End-->
+            </div><!--Main Footer Container End-->
+        </footer>
+    <!---FOOTER LINKS END--> 
     </body><!---Body End--> 
 </html><!---HTML End-->
