@@ -5,6 +5,7 @@
         <title>freebritney.shop</title>
         <meta name="description" content="free brtiney spears.">
         <link rel= "stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
     </head>
     <!---HEAD METADATA END -->
 
@@ -19,7 +20,7 @@
                     <li><a href="about.html">ABOUT</a></li>
                 </ul>
             </nav>
-            <h1 class="band_name band_name_large">Free Britney</h1>
+            <h1 class="band_name band_name_large"> Shop &hearts; Free Britney </h1>
         </header>
     
         <!---NAV BAR MENU HEADER END-->
@@ -72,7 +73,7 @@
                             <span class="shop_item_title"> Album 1 </span>
                                 <img class="shop_item_image" src="Images/tshirt_album1_babyonemoretime.jpg">
                                 <div class="shop_item_details">  <!---Shop Item Details Div-->
-                                    <span class="shop_item_price">$25 </span>
+                                    <span class="shop_item_price">$35 </span>
                                         <button class="btn btn_primary shop_item_button">ADD TO CART</button>   
                                 </div> <!---Shop Item Details Div End-->   
                         </div><!---(1)Shop One Item Div End-->
@@ -80,7 +81,7 @@
                             <span class="shop_item_title"> Album 2 </span>
                                 <img class="shop_item_image" src="Images/tshirt_album2_oops.jpeg">
                                 <div class="shop_item_details">  <!---Shop Item Details Div-->
-                                    <span class="shop_item_price">$25 </span>
+                                    <span class="shop_item_price">$35 </span>
                                         <button class="btn btn_primary shop_item_button">ADD TO CART</button>   
                                 </div> <!---Shop Item Details Div End-->   
                         </div><!---(2)Shop One Item Div End-->
@@ -88,7 +89,7 @@
                             <span class="shop_item_title"> Album 4 </span>
                                 <img class="shop_item_image" src="Images/tshirt_album4_inthezone.jpg">
                                 <div class="shop_item_details">  <!---Shop Item Details Div-->
-                                    <span class="shop_item_price">$25 </span>
+                                    <span class="shop_item_price">$35 </span>
                                         <button class="btn btn_primary shop_item_button">ADD TO CART</button>   
                                 </div> <!---Shop Item Details Div End-->   
                         </div><!---(3)Shop One Item Div End-->
@@ -96,7 +97,7 @@
                             <span class="shop_item_title"> Album 7 </span>
                                 <img class="shop_item_image" src="Images/tshirt_album7_circuis.jpg">
                                 <div class="shop_item_details">  <!---Shop Item Details Div-->
-                                    <span class="shop_item_price">$25 </span>
+                                    <span class="shop_item_price">$35 </span>
                                         <button class="btn btn_primary shop_item_button">ADD TO CART</button>   
                                 </div> <!---Shop Item Details Div End-->   
                         </div><!---(4)Shop One Item Div End-->
@@ -108,7 +109,7 @@
             <h2 class ="section_header"> Back to School Merch </h2> 
             <div class="shop_items"> <!---Shop Items Div-->
                 <div class ="shop_item"> <!---(1)Shop One Item Div-->
-                    <span class="shop_item_title"> Free Britney Tote Bag </span>
+                    <span class="shop_item_title"> Tote Bag &hearts; Free Britney </span>
                         <img class="shop_item_image" src="Images/bag_freebritney.JPG">
                         <div class="shop_item_details">  <!---Shop Item Details Div-->
                             <span class="shop_item_price">$30 </span>
@@ -116,7 +117,7 @@
                         </div> <!---Shop Item Details Div End-->   
                 </div><!---(1)Shop One Item Div End-->
                 <div class ="shop_item"> <!---(2)Shop One Item Div-->
-                    <span class="shop_item_title"> Free Britney Tumbler </span>
+                    <span class="shop_item_title"> Tumbler &hearts; Free Britney  </span>
                         <img class="shop_item_image" src="Images/mug_freebritney.jpg">
                         <div class="shop_item_details">  <!---Shop Item Details Div-->
                             <span class="shop_item_price">$30 </span>
@@ -136,34 +137,13 @@
             </div><!---Cart Header Div End--> 
 
             <div class="cart_items"><!--Cart Items-->
-                <div class="cart_row"><!--(1st)Cart Row-->
-                    <div class="cart_item cart_column"><!--(1st)Cart Item Cart Colmumn-->
-                        <img class="cart_item_image" src="Images/tshirt_album2_oops.jpeg" width="100" height="100">
-                        <span class="cart_item_title">T-Shirt</span>
-                    </div><!--(1st)Cart Item Cart Colmumn End-->
-                    <span class="cart_price cart_column">$25</span>
-                    <div class="cart_quantity cart_column"> <!--(1st)Cart Quantity Cart Colmumn-->
-                        <input class="cart_quantity_input" type="number" value="1">
-                        <button class="btn btn_danger" type="button">Remove</button>
-                    </div><!--(1st)Cart Quantity Cart Colmumn End-->
-                </div><!--(1st)Cart Row End-->
-                <div class="cart_row"> <!--(2nd)Cart Row-->
-                    <div class="cart_item cart_column"><!--(2nd)Cart Item Cart Column-->
-                        <img class="cart_item_image" src="Images/dvd_album4_inthezone.jpg" width="100" height="100">
-                        <span class="cart_item_title">Album 4</span>
-                    </div><!--(2nd)Cart Item Cart Column End-->
-                    <span class="cart_price cart_column">$35</span>
-                    <div class="cart_quantity cart_column"><!--(2nd)Cart Qunantity Cart Column -->
-                        <input class="cart_quantity_input" type="number" value="2">
-                        <button class="btn btn_danger" type="button">Remove</button>
-                    </div><!--(2nd)Cart Qunantity Cart Column End-->
-                </div><!--(2nd)Cart Row End-->
+                <!--Removed all cart rows to be added when item selected via shop.JS-->
             </div><!--Cart Items End-->
          
 
             <div class="cart_total"><!---Cart Total -->
                 <strong class="cart_total_title">Total</strong>
-                <span class="cart_total_price">$85</span>
+                <span class="cart_total_price">$0</span>
             </div><!---Cart Total End--> 
             <button class="btn btn_primary btn_purchase" type="button">PURCHASE</button>
         </section><!---Cart Content Section End-->
@@ -194,5 +174,7 @@
             </div><!--Main Footer Container End-->
         </footer>
     <!---FOOTER LINKS END--> 
+
+    
     </body><!---Body End--> 
 </html><!---HTML End-->
