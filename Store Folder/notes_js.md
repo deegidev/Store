@@ -52,3 +52,6 @@
 - createElement(div) and append
 - https://www.w3schools.com/jsref/met_node_appendchild.asp 
 
+# Make Purchase Button Remove Items from Cart
+
+
